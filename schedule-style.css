@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container-fluid {
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container-fluid img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Ensures the image covers the area without overflowing */
+    object-position: center; /* Keeps the image centered */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}

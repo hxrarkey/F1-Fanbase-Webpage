@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.navbar-menu {
+    list-style-type: none;
+}
+
+.navbar-item {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+}
+
+.navbar-item:hover .dropdown {
+    display: block;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.carousel {
+    width: 100%; /* Sets the carousel to take the full width of the container */
+    max-width: 100%; /* Ensures the carousel doesn't overflow */
+    margin: auto; /* Centers the carousel */
+}
+
+.carousel-item img {
+    width: 100%; /* Makes the image fill the entire carousel item */
+    height: 400px; /* Maintains the image aspect ratio */
+    background: #000;
+    object-fit: contain; /* Prevents the image from being cropped */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}

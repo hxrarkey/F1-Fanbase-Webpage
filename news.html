@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Fan Base</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="news-style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV1-FrK2Q5bJSCqI8k46hnmR5yXuBx7si47g&s" alt="F1 Logo" width="50">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mainNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                                <li class="nav-item"><a class="nav-link" href="drivers.html">Drivers</a></li>
+                                <li class="nav-item"><a class="nav-link" href="teams.html">Teams</a></li>
+                                <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                                <li class="nav-item"><a class="nav-link" href="subscribe.html">Subscribe</a></li>
+                                <li class="nav-item"><a class="nav-link" href="signinorout.html">Sign In/Sign Out</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<div id="newsCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#newsCarousel" data-slide-to="1"></li>
+        <li data-target="#newsCarousel" data-slide-to="2"></li>
+        <li data-target="#newsCarousel" data-slide-to="3"></li>
+        <li data-target="#newsCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Carousel Items -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://e0.365dm.com/24/02/2048x1152/skysports-lewis-hamilton-ferrari_6440225.jpg?20240201105031" class="d-block w-100" alt="News 1">
+            <div class="carousel-caption d-none d-md-block text-light" style="background-color: rgba(0, 0, 0, 0.5);">
+                <h5>Lewis Hamilton Leaves Mercedes and Joins Ferrari</h5>
+                <p>In a stunning turn of events in the Formula 1 world, Lewis Hamilton is set to make a sensational move to Ferrari for the upcoming seasons.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://i2-prod.mirror.co.uk/incoming/article34027984.ece/ALTERNATES/s1200d/0_BESTPIX-F1-Grand-Prix-of-Brazil.jpg" class="d-block w-100" alt="News 2">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                <h5>Max Verstappen: Red Bull driver's spectacular 2024 season</h5>
+                <p>Max Verstappen is on the brink of sealing a fourth successive world championship following a stunning victory in Brazil.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2024/06/14122442/carlos-sainz-ferrari-williams-f1-2024-australian-grand-prix.jpg" class="d-block w-100" alt="News 3">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                <h5>Carlos Sainz to Williams in 2025: A New Era Begins</h5>
+                <p>In a surprising move for the 2025 Formula 1 season, Carlos Sainz has made the bold decision to leave Ferrari and join Williams Racing.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://sportsbase.io/images/gpfans/copy_1200x800/6b77a15f546d809dfaa6f581bb3fd11bc33285d0.jpg" class="d-block w-100" alt="News 4">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                <h5>Perez release revealed by Red Bull</h5>
+                <p>Red Bull have confirmed a Sergio Perez release ahead of the upcoming Las Vegas Grand Prix.</p>
+                <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#modalDriver4">Read More</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.motorsportmagazine.com/wp-content/uploads/2024/11/Lando-Norris-2024-800x450.jpg" class="d-block w-100" alt="News 5">
+            <div class="carousel-caption d-none d-md-block" style="background-color: rgba(0, 0, 0, 0.5);">
+                <h5>Lando Norris in Danger of Earning "Fastest Driver Never to Win" Title</h5>
+                <p>Despite his undeniable speed and skill, the young McLaren star has yet to secure a maiden Grand Prix victory.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Cards Section -->
+<div class="row mt-4">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://e0.365dm.com/24/02/2048x1152/skysports-lewis-hamilton-ferrari_6440225.jpg?20240201105031" class="card-img-top" alt="Hamilton Ferrari">
+            <div class="card-body">
+                <h5 class="card-title">Lewis Hamilton Joins Ferrari</h5>
+                <p class="card-text">Seven-time World Champion makes shocking move to Ferrari.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalDriver1">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://i2-prod.mirror.co.uk/incoming/article34027984.ece/ALTERNATES/s1200d/0_BESTPIX-F1-Grand-Prix-of-Brazil.jpg" class="card-img-top" alt="Verstappen">
+            <div class="card-body">
+                <h5 class="card-title">Verstappen's Dominant Season</h5>
+                <p class="card-text">Max Verstappen is on the brink of sealing a fourth successive world championship following a stunning victory in Brazil.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalDriver2">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2024/06/14122442/carlos-sainz-ferrari-williams-f1-2024-australian-grand-prix.jpg" class="card-img-top" alt="Sainz">
+            <div class="card-body">
+                <h5 class="card-title">Carlos Sainz to Williams in 2025</h5>
+                <p class="card-text">In a surprising move for the 2025 Formula 1 season, Carlos Sainz has made the bold decision to leave Ferrari and join Williams Racing.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalDriver3">Read More</button>
+            </div>
+        </div>
+    </div>
+     <!-- Card 4 -->
+     <div class="col-md-4">
+        <div class="card">
+            <img src="https://sportsbase.io/images/gpfans/copy_1200x800/6b77a15f546d809dfaa6f581bb3fd11bc33285d0.jpg" class="card-img-top" alt="Perez">
+            <div class="card-body">
+                <h5 class="card-title">Perez Release Confirmed by Red Bull</h5>
+                <p class="card-text">Red Bull have confirmed a Sergio Perez release ahead of the upcoming Las Vegas Grand Prix.</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalDriver4">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-md-4">
+        <div class="card">
+            <img src="https://www.motorsportmagazine.com/wp-content/uploads/2024/11/Lando-Norris-2024-800x450.jpg" class="card-img-top" alt="Norris">
+            <div class="card-body">
+                <h5 class="card-title">Lando Norris: Fastest Driver Never to Win?</h5>
+                <p class="card-text">
+                    Despite his undeniable speed and skill, the young McLaren star has yet to secure a maiden Grand Prix victory.
+                </p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#modalDriver4">Read More</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Modals for Carousel Items -->
+<div class="modal fade" id="modalDriver1" tabindex="-1" role="dialog" aria-labelledby="modalDriver1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalDriver1Label">Lewis Hamilton Leaves Mercedes and Joins Ferrari</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>In a move that has sent shockwaves through Formula 1, Lewis Hamilton is set to join Ferrari for the 2025 season. The seven-time world champion, who has rewritten the history books alongside Mercedes, will be part of a high-profile pairing with Charles Leclerc at the Scuderia. This marks the end of his illustrious partnership with Mercedes, where he has enjoyed unprecedented success since 2013.</p>
+                <p>Hamilton's decision is rooted in a desire for a new challenge, much like Michael Schumacher's iconic move to Ferrari in the early 2000s. Despite his strong ties to Mercedes, Hamilton spoke openly about his admiration for Ferrari's history, its passionate fanbase, and the opportunity to revive the team’s fortunes in the post-Schumacher era</p>
+                <p>The move comes after months of speculation, with the 39-year-old reportedly seeking a multi-year deal beyond 2024. Mercedes, while acknowledging Hamilton’s massive impact on the team, confirmed that they were ready to part ways, with the driver pursuing what he calls an "exciting new chapter"</p>
+                <p>As Hamilton makes the bold switch to the Scuderia, his legacy at Mercedes is firmly cemented. Yet, his transition to Ferrari signals a thrilling new phase for the sport, with fans eagerly awaiting the chemistry between two of F1's fastest drivers on the grid.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDriver2" tabindex="-1" role="dialog" aria-labelledby="modalDriver2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalDriver2Label">Max Verstappen: Red Bull driver's spectacular 2024 season</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Max Verstappen delivered an astonishing performance at the 2024 Brazilian Grand Prix, showcasing his dominance and unparalleled skill on the Interlagos circuit. Starting from 17th on the grid, Verstappen’s rise through the field was a testament to his precision and consistency, particularly in the mixed weather conditions that added complexity to the race</p>
+                <p>Verstappen made early progress, overtaking competitors like Lewis Hamilton and Fernando Alonso, and continued to climb as he set a blistering pace. His strategy, combined with a series of aggressive moves, ultimately saw him take the lead after a safety car restart​
+                    . His relentless pace was reflected in his lap times, with the Red Bull driver setting the fastest lap of the race 17 times, including 10 of the final 11 laps</p>
+                    <p>The victory was not just about speed; Verstappen's ability to manage the race in wet conditions and make decisive overtakes put him on a different level from the competition. He finished 19.4 seconds ahead of second-place Esteban Ocon, marking the largest margin of victory at Interlagos since 2000​
+                        . This victory added to Verstappen's growing legacy, underlining his ability to win from any grid position and solidifying his place as one of the sport's greats.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDriver3" tabindex="-1" role="dialog" aria-labelledby="modalDriver3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalDriver3Label">Carlos Sainz to Williams in 2025</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Carlos Sainz is set to make a significant move to Williams Racing for the 2025 Formula 1 season, marking a pivotal shift in his career. After a successful stint at Ferrari, where he secured several podiums and a win at the 2023 British Grand Prix, Sainz will join Williams on a two-year contract with options to extend. The deal sees him partnering with Alex Albon, forming a formidable driver lineup that signals Williams' ambition to return to the front of the grid</p>
+                <p>Sainz's decision comes after extensive deliberations, as he evaluated offers from multiple teams. His choice of Williams is seen as an endorsement of the team's vision for the future, which is centered around strong leadership and significant investment in development under team principal James Vowles. Sainz, known for his consistency and race-winning capability, believes that Williams offers the best platform for him to continue his F1 journey while contributing to the team's resurgence​</p>
+                <p>This move also signals a major step forward for Williams, which has been steadily rebuilding its competitive edge, especially with the upcoming 2026 regulations. Sainz's vast experience and race-winning pedigree will play a crucial role in shaping the team's future performance as they aim to reclaim their place among the F1 elite​
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDriver4" tabindex="-1" role="dialog" aria-labelledby="modalDriver4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalDriver4Label">Perez Release Confirmed by Red Bull</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Red Bull Racing has officially confirmed the release of Sergio Perez from his contract, marking the end of his tenure with the team. This decision comes amidst a series of disappointing performances and results for the driver. Perez had been a key member of Red Bull's 2024 campaign but faced mounting pressure due to a lack of consistency and growing tensions within the team.</p>
+                <p>In a statement released by Red Bull, it was confirmed that the team had exercised an exit clause in Perez's contract. This follows several months of speculation regarding his future, as Red Bull looked to strengthen its lineup ahead of upcoming seasons​</p>
+                <p>Perez's exit leaves Red Bull with a vacancy alongside Max Verstappen, and the team is expected to announce a replacement soon, with several potential candidates rumored to be in the running</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDriver5" tabindex="-1" role="dialog" aria-labelledby="modalDriver5Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalDriver5Label">Lando Norris in Danger of Earning "Fastest Driver Never to Win" Title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Lando Norris is often cited as one of the fastest drivers in Formula 1 to never have won a race, a title he shares with a number of notable F1 stars. Despite consistently finishing on the podium, including several second-place finishes, Norris has yet to secure that elusive first win, even though his performances and consistency show that he's among the top talents in the sport. As of late 2023, Norris had achieved a remarkable 13 podium finishes, placing him alongside Nick Heidfeld in terms of points without a win</p>
+                <p>His McLaren team has shown significant improvement in recent seasons, giving him better opportunities to challenge for race wins. However, the ever-dominant forces of Max Verstappen and Red Bull have often overshadowed Norris's bid for victory. The 2024 season still offers potential, with Norris being just 23 and showing that he has the skill and dedication to break through</p>
+                <p>Though his wait for a win continues, Norris's journey mirrors that of other drivers who took years to achieve victory, such as Carlos Sainz and Sergio Perez, both of whom had to wait multiple seasons before securing their first wins​
+                    . Given his raw talent and the progress of his team, it's only a matter of time before he claims his first Grand Prix victory.</p>
+            </div>
+        </div>
+    </div>
+</div>
+            
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>&copy; 2024 F1 Fan Base. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
